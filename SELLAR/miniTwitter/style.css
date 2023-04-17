@@ -1,0 +1,43 @@
+body, h1{
+    margin:0;
+    padding: 0;
+}
+
+
+.blue{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue h1{
+    color:lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:56px; line-height:56px;
+    background:lightskyblue; 
+    font-size:13px;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#fff;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#434e52;
+}
